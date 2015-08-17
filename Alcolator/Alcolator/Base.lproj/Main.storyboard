@@ -43,6 +43,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="xO6-zp-MvK" firstAttribute="width" secondItem="xcO-9X-J7W" secondAttribute="width" constant="425" id="4W7-Sj-Wfa"/>
                             <constraint firstItem="xO6-zp-MvK" firstAttribute="top" secondItem="xcO-9X-J7W" secondAttribute="bottom" constant="46" id="BfB-Pr-ahh"/>
                             <constraint firstItem="MvM-jf-sNA" firstAttribute="top" secondItem="3BF-IL-5Vf" secondAttribute="bottom" constant="8" id="Cda-Wa-knq"/>
                             <constraint firstItem="xO6-zp-MvK" firstAttribute="top" secondItem="xcO-9X-J7W" secondAttribute="bottom" constant="46" id="DFI-o2-UQ0"/>
