@@ -40,6 +40,21 @@
 
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
     
+    // Retrieve number selected from slider and substring
+    int resultFromSlider = self.beerCountSlider.value;
+    
+    NSString *numberOfGlassesText = [NSString new];
+    
+    if (resultFromSlider == 1) {
+        numberOfGlassesText = @"glass";
+    } else {
+        numberOfGlassesText = @"glasses";
+    }
+    
+    // Set title
+    self.navigationItem.title = [NSString stringWithFormat:@"%@%d %@%@", @"Wine(", resultFromSlider, numberOfGlassesText, @")"];
+    
+    
     NSLog(@"Slider value changed to %f", sender.value);
     [self.beerPercentTextField resignFirstResponder];
     
