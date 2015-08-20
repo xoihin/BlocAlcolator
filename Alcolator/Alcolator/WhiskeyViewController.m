@@ -29,7 +29,7 @@
     }
     
     // Set title
-    self.navigationItem.title = [NSString stringWithFormat:@"%@%d %@%@", @"Wine(", resultFromSlider, numberOfGlassesText, @")"];
+    self.navigationItem.title = [NSString stringWithFormat:@"%@%d %@%@", @"Whiskey(", resultFromSlider, numberOfGlassesText, @")"];
     
     
     NSLog(@"Slider value changed to %f", sender.value);
